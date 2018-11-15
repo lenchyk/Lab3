@@ -2,7 +2,7 @@
 
 int Calculator::Add (int a, int b)
 {
-	return a + b;
+	return a + b + 0.5;
 }
 
 int Calculator::Sub (int a, int b)
