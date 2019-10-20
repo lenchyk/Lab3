@@ -1,0 +1,6 @@
+def find_occurrences(key, data):
+    occurrunce = {}
+    for word in data:
+        occurrunce[word] = find_substring(key, word)
+    return occurrunce
+
